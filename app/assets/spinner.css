@@ -1,0 +1,20 @@
+.dash-spinner {
+  background-image: url('CS_loading2.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50vh !important;
+  width: 50vh !important;
+  display: inline-block !important;
+  margin-right: 45vh !important;
+  margin-top: 3.5vh !important;
+/*  top: 0 !important;*/
+/*  bottom: 50 !important;
+  left: 100 !important;
+  position: absolute !important;*/
+
+}
+
+.dash-spinner * {
+  display: none !important;
+}
+
