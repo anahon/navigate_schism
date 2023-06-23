@@ -1,3 +1,5 @@
+netCDF4==1.6.4
+h5netcdf==1.2.0
 dash==2.8.1
 dash_bootstrap_components==1.4.0
 dash_deckgl==0.1.2

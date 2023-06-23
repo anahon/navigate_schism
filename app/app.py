@@ -17,8 +17,8 @@ import pydeck
 # create_contour
 from pydeck_grid import PcolorLayer, PartmeshLayer
 
-root='data/'
-EPSG=26710
+root='/home/anahon/schism/results/cova_gala/202010_v5.10/outputs/'
+EPSG=3763
 Lon,Lat,xrng,yrng,nlayers,variables,files,times,filen=load_metadata(root,EPSG)
 center=get_center(xrng,yrng)
 zoom=get_zoom(xrng,yrng)
@@ -266,4 +266,4 @@ def ping():
   return "{status: ok}"
 
 if __name__ == '__main__':
-    app.run_server(debug=False, use_reloader=False)
+    app.run_server(host='0.0.0.0', port=8050, debug=False, use_reloader=False)
